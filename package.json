@@ -1,0 +1,28 @@
+{
+  "name": "hzkclaw",
+  "version": "1.0.0",
+  "description": "通用 Coding Agent：飞书 IM + 终端 + 多 Agent Team",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "eval": "tsx src/eval/index.ts",
+    "feishu": "tsx entries/feishu.ts",
+    "cli": "tsx entries/cli.ts",
+    "orch": "tsx entries/orch.ts",
+    "worker": "tsx entries/orch.ts --worker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.72.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.9"
+  }
+}

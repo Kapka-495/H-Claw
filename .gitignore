@@ -1,0 +1,7 @@
+node_modules/
+.env
+.hzkclaw-tasks.json
+.hzkclaw-locks/
+.hzkclaw-results/
+.eval-tmp/
+*.log
